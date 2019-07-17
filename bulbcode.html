@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<img id="myim" src="picoff.jpg" onclick="changeIm()" width="100px" height="100px">
+<script>
+	function changeIm()
+	{
+var im=document.getElementById("myim");
+alert("HI");
+if(im.src.match("bulbon"))
+{
+im.src="picoff.jpg";
+}
+else
+{
+im.src="picon.jpg";	
+}
+}
+</script>
+</body>
+</html>
